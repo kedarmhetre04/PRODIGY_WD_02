@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: large;
+    margin: 0;
+    background-image:url(https://cdn.mos.cms.futurecdn.net/HjrVVsTBP8FfZoErpbWn4F-650-80.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.stopwatch {
+    text-align: center;
+}
+#display {
+    font-size: 4em;
+    margin: 10px;
+}
+button {
+    font-size: 3em;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 8px 4px 4px rgb(114, 129, 103);
+}
+#laps {
+    list-style: none;
+    padding: 0;
+    font-size: 2em;
+}
